@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+    <LinearLayout android:orientation="horizontal" android:layout_height="wrap_content" android:layout_width="match_parent" xmlns:android="http://schemas.android.com/apk/res/android" android:background="#000">
+
+    <ImageView android:layout_height="50dp" android:layout_width="50dp" android:contentDescription="@null" android:scaleType="centerCrop" android:padding="3dp" android:id="@+id/app_icon"/>
+
+
+    <LinearLayout android:orientation="vertical" android:layout_height="match_parent" android:layout_width="match_parent" android:paddingLeft="5dp" android:gravity="center|center_vertical">
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/app_name" android:gravity="center_vertical" android:textStyle="bold" android:textColor="#fff" android:textSize="20dp"/>
+
+    <TextView android:layout_height="wrap_content" android:layout_width="match_parent" android:id="@+id/app_package" android:gravity="center_vertical" android:textColor="#fff" android:textSize="15dp"/>
+
+</LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000"
+    tools:context=".MainActivity"
+    android:clickable="true"
+    android:focusable="true"
+    android:focusableInTouchMode="true"
+    >
+
+
+    <Button
+        android:id="@+id/but"
+        android:layout_width="51dp"
+        android:layout_height="14dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentStart="true"
+        android:text="Button" />
+
+    <EditText
+        android:id="@+id/apptext"
+        android:layout_width="wrap_content"
+        android:layout_height="501dp"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginEnd="15dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginTop="50dp"
+        android:background="@android:color/transparent"
+        android:ems="10"
+        android:shadowColor="#000"
+        android:gravity="top|left"
+        android:focusableInTouchMode="true"
+        android:inputType="textMultiLine|textVisiblePassword"
+
+        android:maxLines="10"
+        android:paddingTop="0dp"
+        android:hint="type 'help' and press enter to view all commands "
+        android:textColorHint="#bde0e0e0"
+        android:textColor="#fff"
+        android:textSize="40dp" />
+
+</RelativeLayout>
